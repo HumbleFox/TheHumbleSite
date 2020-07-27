@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>The Force is with this Page</title>
+		<link rel="stylesheet" href="../css/styles.css">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+		<!-- Global site tag (gtag.js) - Google Analytics -->
+		<script async src="https://www.googletagmanager.com/gtag/js?id=UA-145681685-2"></script>
+		<script>
+		  window.dataLayer = window.dataLayer || [];
+		  function gtag(){dataLayer.push(arguments);}
+		  gtag('js', new Date());
+
+		  gtag('config', 'UA-145681685-2');
+		</script>
+    <script type="text/javascript">
+   // we define answers
+   var answers = ["It is certain",
+                  "It is decidedly so",
+                  "Without a doubt",
+                  "Yes - definitely",
+                  "You may rely on it",
+                  "As I see it, yes",
+                  "Most likely",
+                  "Outlook good",
+                  "Yes", "Signs point to yes",
+                  "Don't count on it",
+                  "My reply is no",
+                  "My sources say no",
+                  "Outlook not so good",
+                  "Very doubtful",
+                  "Reply hazy, try again",
+                  "Ask again later",
+                  "Better not tell you now",
+                  "Cannot predict now",
+                  "Concentrate and ask again"];
+
+   window.onload = function() {
+      var eight = document.getElementById("eight");
+      var answer = document.getElementById("answer");
+      var eightball = document.getElementById("eight-ball");
+      var question = document.getElementById("question");
+
+      eightball.addEventListener("click", function() {
+        if (question.value.length < 1) {
+          alert('Enter a question!');
+        } else {
+          eight.innerText = "";
+          var num = Math.floor(Math.random() * Math.floor(answers.length));
+          answer.innerText = answers[num];
+        }
+      });
+
+			question.addEventListener("keypress", function(e) {
+				var key = e.which || e.keycode;
+				if(key === 13){
+		      if (question.value.length < 1) {
+		        alert('Enter a question!');
+		      } else {
+		        eight.innerText = "";
+		        var num = Math.floor(Math.random() * Math.floor(answers.length));
+		        answer.innerText = answers[num];
+		      }
+				}
+      });
+   };
+ </script>
+
+ <style type="text/css">
+   h1 { font-weight: 100; font-size: 2.5em;}
+
+   #content {
+    width: 600px;
+    margin: 0 auto;
+    margin-top: 50px;
+    border: 1px dotted black;
+    text-align: center;
+    font-family: 'Helvetica Neue', arial;
+    font-weight: 100;
+  }
+
+   div.eight-ball {
+     background-color: black;
+     border: 1px solid black;
+     border-radius: 50%;
+     width: 300px;
+     height: 300px;
+     margin: 0 auto;
+     margin-bottom: 30px;
+     margin-top: 30px;
+   }
+
+   div.answer {
+     background-color: #333;
+     border: 1px solid #333;
+     border-radius: 50%;
+     width: 50%;
+     height: 50%;
+     margin: 25% auto;
+   }
+
+   p#eight {
+     font-size: 5em;
+     margin: 20% auto;
+     color: white;
+   }
+
+   p#answer {
+     padding: 23px;
+     color: lightblue;
+     letter-spacing: 2px;
+     font-size:18px;
+   }
+
+   #question {
+     margin: 20px;
+     padding: 10px;
+     width: 400px;
+     font-size:22px;
+   }
+
+   #info {
+     font-size: 22px;
+   }
+
+ </style>
+
+</head>
+<body>
+ <header>
+	 <header>
+		 <div class="inner">
+			 <a href="../index.html">
+				 <div class="logo">
+					 <svg width="100%" height="100%" viewBox="0 0 633 621" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:1.5;"> <g transform="matrix(1,0,0,1,-583.509,-364.977)"> <g transform="matrix(1,0,0,1,2.14492,24.9648)"> <g transform="matrix(0.90856,-2.14442e-17,1.26647e-17,-0.64,72.1461,1271.86)"> <path d="M908.81,489.307L1257.15,1065.36L560.467,1065.36L908.81,489.307Z" style="fill:rgb(244,215,191);"/> </g> <g transform="matrix(1,2.51797e-17,-4.06675e-17,-1.28302,81.8911,1059.18)"> <path d="M816.642,77.259L1026.98,436.446L816.642,436.446L515.962,560.53L816.642,77.259Z" style="fill:rgb(231,138,58);"/> </g> <g transform="matrix(-1,2.51797e-17,4.06675e-17,-1.28302,1715.17,1059.18)"> <path d="M816.642,77.259L1017.61,436.446L816.642,436.446L519.267,551.514L816.642,77.259Z" style="fill:rgb(231,138,58);"/> </g> <g transform="matrix(1,0,0,1,35.8068,-59.2189)"> <circle cx="750.029" cy="697.387" r="70.466" style="fill:none;stroke:black;stroke-width:16.67px;"/> </g> <g transform="matrix(1,0,0,1,265.337,-59.2189)"> <circle cx="750.029" cy="697.387" r="70.466" style="fill:none;stroke:black;stroke-width:16.67px;"/> </g> <g transform="matrix(0.500046,0,0,0.48472,208.645,305.931)"> <path d="M1290.12,729.751C1352.85,664.727 1415.59,662.565 1478.33,729.751" style="fill:none;stroke:black;stroke-width:33.84px;"/> </g> </g> </g> </svg>
+				 </div>
+			 </a>
+
+			 <ul class="navigation">
+				 <a href="../index.html"><li>Home</li></a>
+				 <a href="#"><li>About</li></a>
+				 <a href="8ball.html"><li>Magic Eight Ball</li></a>
+				 <a href="#"><li>Contact</li></a>
+			 </ul>
+		 </div>
+	 </header>
+ </header>
+ <div id="content">
+   <h1>Magic 8 ball </h1>
+   <p id="info">Ask me a question</p>
+   <input type="text" id="question" />
+   <div id="eight-ball" class="eight-ball">
+     <div class="answer">
+       <p id="eight">8</p>
+       <p id="answer"></p>
+     </div>
+   </div>
+ </div>
+</body>
+
+</html>
