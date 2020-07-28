@@ -110,10 +110,10 @@ main img{
 		height: 100%;
 		display: table;
 		float: left;
-		padding: 0 15px;
+		padding: 0 10px;
 		color: white;
 		font-family: 'Roboto', sans-serif;
-		font-size: 3vw;
+		font-size: 3.5vw;
 	}
 
 	.navigation a li{
