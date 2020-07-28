@@ -10,7 +10,7 @@
 	baseUrl = "https://thehumblesite.com"
 
 	# Path to the sitemap URL (optional, default = /sitemap.xml)
-	sitemapPath = "/sitemap.xml"
+	sitemapPath = "https://thehumblesite.com/sitemap.xml"
 
 	# Enabled providers to submit sitemap to (optional, default = 'google', 'bing', 'yandex'). Possible providers are currently only 'google', 'bing', 'yandex'.
 	providers = [
