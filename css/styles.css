@@ -10,16 +10,29 @@ main{
 }
 
 main h1{
-	margin: 5vw;
+	margin: 5vw 20vw;
+}
+
+main h3{
+	margin: 2vw 20vw;
+	font-size: 22px
+}
+
+main ul{
+	margin: 2vw 25vw;
+	font-size: 18px;
+}
+
+main li{
+	list-style: initial;
 }
 
 main p{
-	margin: 5vw;
+	margin: 2vw 20vw;
 	font-size: 18px;
 }
 
 main div.Photos{
-	float: left;
 	display: block;
 	font-size: 0;
 	line-height: 0;
@@ -67,6 +80,13 @@ header .right-header a{
 }
 
 
+footer{
+	height: 60px;
+	background-color: #101010;
+	font-family: 'Roboto', sans-serif;
+	margin-top: 100px;
+}
+
 @media (max-width:1000px) {
 	.inner{
 		width: 100%;
@@ -96,7 +116,7 @@ header .right-header a{
     display: block;
     text-align: center;
   }
-	
+
 	main p{
 		font-size: 15px;
 	}
