@@ -83,17 +83,13 @@ header .right-header a{
 	.logo{
 		padding-right: 300px
 	}
-
-	header a {
-    float: none;
-    display: block;
-    text-align: center;
-  }
   .right-header {
     float: none;
   }
 	header .right-header a{
     /* padding-right: 550px; */
-		padding: 0 2.5vw;
+		float: none;
+    display: block;
+    text-align: center;
   }
 }
