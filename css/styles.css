@@ -1,13 +1,21 @@
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	text-decoration: none;
+}
+
 main{
 	font-family: 'Roboto', sans-serif;
 }
 
 main h1{
-	margin: 3vw;
+	margin: 5vw;
 }
 
 main p{
-	margin: 3vw;
+	margin: 5vw;
+	font-size: 18px;
 }
 
 main div.Photos{
@@ -19,13 +27,6 @@ main div.Photos{
 
 main img{
 	width: 50%;
-}
-
-*{
-	margin: 0;
-	padding: 0;
-	list-style: none;
-	text-decoration: none;
 }
 
 .inner{
@@ -80,16 +81,23 @@ header .right-header a{
 		margin-left: auto;
 		margin-right: auto;
 	}
+
 	.logo{
 		padding-right: 300px
 	}
+
   .right-header {
     float: none;
   }
+
 	header .right-header a{
     /* padding-right: 550px; */
 		float: none;
     display: block;
     text-align: center;
   }
+	
+	main p{
+		font-size: 15px;
+	}
 }
